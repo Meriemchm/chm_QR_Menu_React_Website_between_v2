@@ -14,7 +14,7 @@ const Accordion = ({ title }) => {
           {title}
         </span>
         <svg
-          className={`fill-primary shrink-0 ml-8 transform transition-transform duration-300 ${
+          className={`fill-second shrink-0 ml-8 transform transition-transform duration-300 ${
             accordionOpen ? "rotate-180" : ""
           }`}
           width="16"
@@ -34,7 +34,7 @@ const Accordion = ({ title }) => {
       <div
         className={` overflow-y-scroll transition-max-height duration-500 ease-in-out ${
           accordionOpen
-            ? "max-h-screen py-5 opacity-100 h-full "
+            ? "max-h-screen pb-10 opacity-100 h-full "
             : "max-h-0 opacity-0 h-0"
         }`}
       >
