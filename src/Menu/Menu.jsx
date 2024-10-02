@@ -5,8 +5,8 @@ const Menu = ({ title }) => {
   const Data = MenuData.filter((item) => item.category === title);
 
   return (
-    <div className=" flex flex-col justify-center md:items-center items-start w-full pt-36 md:px-5 px-1 h-full md:pb-5">
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full md:w-auto text-center py-8 justify-center items-center">
+    <div className=" flex flex-col justify-center md:items-center items-start w-full md:px-5 px-1 h-full ">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full md:w-auto text-center justify-center items-center">
         {Data.map(({ id, src, name, price }) => {
           return (
             <div
@@ -29,18 +29,7 @@ const Menu = ({ title }) => {
             </div>
           );
         })}
-        {title === "Crêpes & Gaufres" || title === "Pancakes" ? (
-          <div className="flex gap-2">
-            <p className="havana-font font-bold text-four">
-              Supplément Boule De Glace
-            </p>
-            <p className="font-bold">+ 150 da</p>
-          </div>
-        ) : title === "Jus Pressé" ? (
-          <p className="havana-font font-bold text-four">
-            (deux fruits au choix)
-          </p>
-        ) : null}
+
       </div>
     </div>
   );
