@@ -8,7 +8,7 @@ const NavBar = () => {
     >
       <div className="flex">
         <h1
-          className={`signature font-bold text-xs md:text-base  text-primary `} 
+          className={`signature font-bold text-base md:text-lg  text-primary `} 
         >
           {/* text-3xl md:text-4xl */}
           Between us
