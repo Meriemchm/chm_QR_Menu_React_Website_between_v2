@@ -3,7 +3,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('/Yandilove-L3E7G.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 @layer base {
+  .signature{
+    font-family: 'MyCustomFont', sans-serif;
+  }
   .coffee_name {
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 400;

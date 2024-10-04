@@ -8,9 +8,10 @@ const NavBar = () => {
     >
       <div className="flex">
         <h1
-          className={`coffee_name  text-3xl md:text-4xl text-primary `}
+          className={`signature font-bold text-xs md:text-base  text-primary `} 
         >
-          BETWEEN US
+          {/* text-3xl md:text-4xl */}
+          Between us
         </h1>
         <p className="menu_name text-primary">Coffee</p>
       </div>
