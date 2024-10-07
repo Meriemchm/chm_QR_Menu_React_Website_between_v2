@@ -1,13 +1,19 @@
-import React, { useState } from "react";
+import React, { useRef, useEffect } from "react";
 import Menu from "../Menu/Menu";
 
-const Accordion = ({ title }) => {
-  const [accordionOpen, setAccordionOpen] = useState(false);
+const Accordion = ({ title, isOpen, onClick }) => {
+  const accordionRef = useRef(null);
+
+  useEffect(() => {
+    if (isOpen && accordionRef.current) {
+      accordionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [isOpen]);
 
   return (
-    <div className="w-full border-b">
+    <div ref={accordionRef} className="w-full border-b">
       <button
-        onClick={() => setAccordionOpen(!accordionOpen)}
+        onClick={onClick}
         className="flex justify-between w-full items-center py-4"
       >
         <span className="capitalize font-semibold text-second text-2xl md:text-4xl">
@@ -15,7 +21,7 @@ const Accordion = ({ title }) => {
         </span>
         <svg
           className={`fill-second shrink-0 ml-8 transform transition-transform duration-300 ${
-            accordionOpen ? "rotate-180" : ""
+            isOpen ? "rotate-180" : ""
           }`}
           width="16"
           height="16"
@@ -32,13 +38,11 @@ const Accordion = ({ title }) => {
         </svg>
       </button>
       <div
-        className={` overflow-hidden transition-max-height duration-500 ease-in-out ${
-          accordionOpen
-            ? "pb-10 opacity-100 h-auto "
-            : "max-h-0 opacity-0 h-0"
+        className={`overflow-hidden transition-max-height duration-500 ease-in-out ${
+          isOpen ? "pb-10 opacity-100 h-auto" : "max-h-0 opacity-0 h-0"
         }`}
       >
-        <Menu title={title} />
+        {isOpen && <Menu title={title} />}
       </div>
     </div>
   );
