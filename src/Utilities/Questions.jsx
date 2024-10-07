@@ -11,20 +11,21 @@ const Questions = () => {
   };
 
   return (
-    <div className="h-full flex flex-col items-center justify-center pt-24 pb-20 px-2 md:px-0">
-      <div className="mx-auto w-full items-center justify-center md:px-80 ">
-        <div className="flex flex-col ">
-          {menuLinks.map(({ id, title }) => (
-            <Accordion
-              key={id}
-              title={title}
-              isOpen={openAccordionId === id}
-              onClick={() => handleAccordionClick(id)}
-            />
-          ))}
-        </div>
-      </div>
+<div className="h-full flex flex-col items-center justify-center pt-24 pb-20 px-4 sm:px-6 md:px-10 lg:px-20">
+  <div className="w-full ">
+    <div className="flex flex-col space-y-4">
+      {menuLinks.map(({ id, title }) => (
+        <Accordion
+          key={id}
+          title={title}
+          isOpen={openAccordionId === id}
+          onClick={() => handleAccordionClick(id)}
+        />
+      ))}
     </div>
+  </div>
+</div>
+
   );
 };
 

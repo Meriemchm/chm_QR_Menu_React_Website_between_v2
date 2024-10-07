@@ -6,7 +6,14 @@ const Accordion = ({ title, isOpen, onClick }) => {
 
   useEffect(() => {
     if (isOpen && accordionRef.current) {
-      accordionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+
+      const elementPosition = accordionRef.current.getBoundingClientRect().top;
+      const offsetPosition = window.pageYOffset + elementPosition - 100;
+      window.scrollTo({
+        top: offsetPosition,
+        left: 0,
+        behavior: "smooth" 
+      });
     }
   }, [isOpen]);
 
