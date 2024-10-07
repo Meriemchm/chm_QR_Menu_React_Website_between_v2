@@ -13,7 +13,7 @@ const NavBar = () => {
           {/* text-3xl md:text-4xl */}
           Between us
         </h1>
-        <p className="menu_name text-primary">Coffee</p>
+        {/* <p className="menu_name text-primary">Coffee</p> */}
       </div>
       <img src="coffee-beans.svg" alt="" className="md:h-24" />
     </div>

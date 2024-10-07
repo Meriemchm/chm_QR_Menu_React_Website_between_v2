@@ -32,9 +32,9 @@ const Accordion = ({ title }) => {
         </svg>
       </button>
       <div
-        className={` overflow-y-scroll transition-max-height duration-500 ease-in-out ${
+        className={`transition-max-height duration-500 ease-in-out ${
           accordionOpen
-            ? "max-h-screen pb-10 opacity-100 h-full "
+            ? " pb-10 opacity-100 h-auto"
             : "max-h-0 opacity-0 h-0"
         }`}
       >
