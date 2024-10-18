@@ -5,7 +5,7 @@ const Menu = ({ title }) => {
   const Data = MenuData.filter((item) => item.category === title);
 
   return (
-    <div className=" flex flex-col justify-center md:items-center items-start w-full md:px-2 h-full ">
+    <div className=" flex flex-col justify-center md:items-center items-start w-full  h-full ">
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 w-full md:w-auto text-center justify-center items-center">
         {Data.map(({ id, src, name, price, ingredients }) => {
           return (
