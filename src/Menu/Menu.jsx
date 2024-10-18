@@ -26,7 +26,7 @@ const Menu = ({ title }) => {
                     {name}
                   </p>
                   <p className="text-white text-start font-extralight py-1">
-                    {ingredients} .
+                    {ingredients}
                   </p>
                   <p className="font-bold  text-white">{price}</p>
                 </div>
