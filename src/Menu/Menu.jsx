@@ -17,7 +17,7 @@ const Menu = ({ title }) => {
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md w-44 h-32 object-cover mt-5"
+                  className="rounded-md md:w-44 md:h-32 h-24 w-32 object-cover mt-5"
                   loading="lazy"
                 />
 
@@ -25,14 +25,12 @@ const Menu = ({ title }) => {
                   <p className=" menu_name text-lg font-bold capitalize py-2 text-second">
                     {name}
                   </p>
+                  <p className="text-white text-start font-extralight py-1">
+                    {ingredients} .
+                  </p>
                   <p className="font-bold  text-white">{price}</p>
                 </div>
               </div>
-              {ingredients && ingredients.trim() !== "" ? (
-                <p className="text-white text-start pt-5 font-extralight">
-                 <span className="text-black text-start pt-5 font-bold"> Ingredients :</span>  {ingredients} .
-                </p>
-              ) : null}
             </div>
           );
         })}

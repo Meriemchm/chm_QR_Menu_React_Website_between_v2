@@ -6,7 +6,7 @@ export default {
       colors: {
         primary: "#4A6053",
         second: "#F3EADB",
-        third: "#512E17",
+        third: "#27170C",
 
       },
     },
