@@ -17,7 +17,7 @@ const Menu = ({ title }) => {
                 <img
                   src={src}
                   alt=""
-                  className="rounded-md md:w-44 md:h-32 h-24 w-32 object-cover mt-5"
+                  className="rounded-md md:w-44 md:h-32 h-32 w-40 object-cover mt-5"
                   loading="lazy"
                 />
 
@@ -25,7 +25,7 @@ const Menu = ({ title }) => {
                   <p className=" menu_name text-lg font-bold capitalize py-2 text-second">
                     {name}
                   </p>
-                  <p className="text-white text-start font-extralight py-1">
+                  <p className="text-white text-start font-extralight py-2">
                     {ingredients}
                   </p>
                   <p className="font-bold  text-white">{price}</p>
