@@ -30,7 +30,7 @@ const Menu = ({ title }) => {
               </div>
               {ingredients && ingredients.trim() !== "" ? (
                 <p className="text-white text-start pt-5 font-extralight">
-                  {ingredients} .
+                 <span className="text-black text-start pt-5 font-bold"> Ingredients :</span>  {ingredients} .
                 </p>
               ) : null}
             </div>
