@@ -11,7 +11,7 @@ const AccordionMain = () => {
   };
 
   return (
-    <div className="h-full flex flex-col items-center justify-center pt-24 pb-20 px-2 sm:px-2 md:px-2 lg:px-20">
+    <div className="h-full flex flex-col items-center justify-center pt-24 pb-20 px-2 sm:px-2 md:px-2 lg:px-12">
       <div className="w-full ">
         <div className="flex flex-col space-y-4">
           {menuLinks.map(({ id, title }) => (
