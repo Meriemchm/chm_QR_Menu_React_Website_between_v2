@@ -125,7 +125,7 @@ export const MenuData = [
     name: "Iced Americano",
     price: "400 Da",
     category: "Cold Coffee",
-    ingredients: "Espresso , Eau chaude , Glaçons",
+    ingredients: "Espresso , Eau froide , Glaçons",
   },
   {
     id: 17,
