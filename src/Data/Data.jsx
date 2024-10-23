@@ -317,7 +317,7 @@ export const MenuData = [
     name: "Frappuccino Mocha",
     price: "600 Da",
     category: "Frappuccino Café",
-    ingredients: "Chocolat noir , café , Lait , Glaçons",
+    ingredients: "Chocolat noir , Café , Lait , Glaçons",
   },
   {
     id: 43,
@@ -325,7 +325,7 @@ export const MenuData = [
     name: "Frappuccino Café White Mocha",
     price: "600 Da",
     category: "Frappuccino Café",
-    ingredients: "Chocolat blanc , café , Lait , Glaçons",
+    ingredients: "Chocolat blanc , Café , Lait , Glaçons",
   },
   {
     id: 44,
