@@ -253,6 +253,7 @@ export const MenuData = [
     name: "Frappuccino Crème Pistachio",
     price: "700 Da",
     category: "Frappuccino Crème",
+    ingredients: "Crème de pistachio , Lait , Glaçons",
   },
   {
     id: 35,
@@ -260,6 +261,7 @@ export const MenuData = [
     name: "Frappuccino Crème Caramel",
     price: "700 Da",
     category: "Frappuccino Crème",
+    ingredients: "Crème de caramel , Lait , Glaçons",
   },
   {
     id: 36,
@@ -267,6 +269,7 @@ export const MenuData = [
     name: "Frappuccino Crème Fraise",
     price: "700 Da",
     category: "Frappuccino Crème",
+    ingredients: "Crème de fraise , Lait , Glaçons",
   },
   {
     id: 37,
@@ -274,6 +277,7 @@ export const MenuData = [
     name: "Frappuccino Crème Coco Choco",
     price: "700 Da",
     category: "Frappuccino Crème",
+    ingredients: "Chocolat noir, noix de coco , Lait , Glaçons",
   },
   {
     id: 38,
@@ -281,6 +285,7 @@ export const MenuData = [
     name: "Frappuccino Crème Double Chocolate Chip",
     price: "700 Da",
     category: "Frappuccino Crème",
+    ingredients: "Deux type de chocolat , Lait , Glaçons",
   },
   {
     id: 39,
@@ -288,6 +293,7 @@ export const MenuData = [
     name: "Frappuccino Café Vanille",
     price: "600 Da",
     category: "Frappuccino Café",
+    ingredients: "Arôme vanille , Lait , Glaçons",
   },
   {
     id: 40,
@@ -295,6 +301,7 @@ export const MenuData = [
     name: "Frappuccino Café Caramel",
     price: "600 Da",
     category: "Frappuccino Café",
+    ingredients: "Arôme caramel , Lait , Glaçons",
   },
   {
     id: 41,
@@ -302,6 +309,7 @@ export const MenuData = [
     name: "Frappuccino Café Noisette",
     price: "600 Da",
     category: "Frappuccino Café",
+    ingredients: "Arôme noisette , Lait , Glaçons",
   },
   {
     id: 42,
@@ -309,6 +317,7 @@ export const MenuData = [
     name: "Frappuccino Mocha",
     price: "600 Da",
     category: "Frappuccino Café",
+    ingredients: "Chocolat noir, café , Lait , Glaçons",
   },
   {
     id: 43,
@@ -316,6 +325,7 @@ export const MenuData = [
     name: "Frappuccino Café White Mocha",
     price: "600 Da",
     category: "Frappuccino Café",
+    ingredients: "Chocolat blanc , café , Lait , Glaçons",
   },
   {
     id: 44,
@@ -323,6 +333,7 @@ export const MenuData = [
     name: "Frappuccino Matcha Tea Latte",
     price: "600 Da",
     category: "Frappuccino Tea",
+    ingredients: "Thé Matcha , Lait , Glaçons",
   },
   {
     id: 45,
@@ -330,6 +341,7 @@ export const MenuData = [
     name: "Frappuccino Chai Tea Latte",
     price: "600 Da",
     category: "Frappuccino Tea",
+    ingredients: "Thé Chai , Lait , Glaçons",
   },
   {
     id: 46,
