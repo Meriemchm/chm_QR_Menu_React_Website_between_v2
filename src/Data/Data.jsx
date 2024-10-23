@@ -277,7 +277,7 @@ export const MenuData = [
     name: "Frappuccino Crème Coco Choco",
     price: "700 Da",
     category: "Frappuccino Crème",
-    ingredients: "Chocolat noir, noix de coco , Lait , Glaçons",
+    ingredients: "Chocolat noir , noix de coco , Lait , Glaçons",
   },
   {
     id: 38,
@@ -285,7 +285,7 @@ export const MenuData = [
     name: "Frappuccino Crème Double Chocolate Chip",
     price: "700 Da",
     category: "Frappuccino Crème",
-    ingredients: "Deux type de chocolat , Lait , Glaçons",
+    ingredients: "Deux types de chocolat , Lait , Glaçons",
   },
   {
     id: 39,
