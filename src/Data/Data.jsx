@@ -293,7 +293,7 @@ export const MenuData = [
     name: "Frappuccino Café Vanille",
     price: "600 Da",
     category: "Frappuccino Café",
-    ingredients: "Arôme vanille , Lait , Glaçons",
+    ingredients: "Arôme vanille , Café , Lait , Glaçons",
   },
   {
     id: 40,
@@ -301,7 +301,7 @@ export const MenuData = [
     name: "Frappuccino Café Caramel",
     price: "600 Da",
     category: "Frappuccino Café",
-    ingredients: "Arôme caramel , Lait , Glaçons",
+    ingredients: "Arôme caramel , Café , Lait , Glaçons",
   },
   {
     id: 41,
@@ -309,7 +309,7 @@ export const MenuData = [
     name: "Frappuccino Café Noisette",
     price: "600 Da",
     category: "Frappuccino Café",
-    ingredients: "Arôme noisette , Lait , Glaçons",
+    ingredients: "Arôme noisette , Café , Lait , Glaçons",
   },
   {
     id: 42,
