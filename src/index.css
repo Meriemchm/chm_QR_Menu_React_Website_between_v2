@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400;700;800&family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nanum+Gothic:wght@400&family=Playfair+Display:ital@0;1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,17 +8,13 @@
   src: url('/Yandilove-L3E7G.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 
 @layer base {
   .signature{
     font-family: 'MyCustomFont', sans-serif;
-  }
-  .coffee_name {
-    font-family: "Nanum Gothic", sans-serif;
-    font-weight: 400;
-    font-style: normal;
   }
   .menu_name {
     font-family: "Playfair Display", serif;
@@ -34,6 +30,11 @@
     @apply min-h-screen;
   }
 }
+
+.accordion:last-child {
+  border-bottom: none;
+}
+
 
 /* width */
 ::-webkit-scrollbar {

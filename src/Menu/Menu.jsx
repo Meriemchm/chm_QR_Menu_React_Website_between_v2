@@ -1,7 +1,7 @@
 import React from "react";
 import { MenuData } from "../Data/Data";
 
-const Menu = ({ title }) => {
+const Menu = ({ title, styleone, styletwo, stylethree }) => {
   const Data = MenuData.filter((item) => item.category === title);
 
   return (
@@ -11,7 +11,7 @@ const Menu = ({ title }) => {
           return (
             <div
               key={id}
-              className="flex flex-col border-b border-white py-5 h-full md:w-full"
+              className={`flex flex-col border-b ${styleone} py-5 h-full md:w-full`}
             >
               <div className="flex flex-row gap-4 md:gap-2 w-full">
                 <img
@@ -22,13 +22,13 @@ const Menu = ({ title }) => {
                 />
 
                 <div className="flex flex-col items-start justify-start flex-grow w-1/2  text-gray-800 md:mx-5 my-4">
-                  <p className="menu_name md:text-lg font-bold capitalize py-2 text-second">
+                  <p className={`menu_name md:text-lg font-bold capitalize py-2 ${styletwo}`}>
                     {name}
                   </p>
-                  <p className="text-white text-start font-extralight py-2 text-sm md:text-base">
+                  <p className={` ${stylethree} text-start font-extralight py-2 text-sm md:text-base`}>
                     {ingredients}
                   </p>
-                  <p className="font-bold text-white">{price}</p>
+                  <p className={`font-bold ${stylethree}`}>{price}</p>
                 </div>
               </div>
             </div>

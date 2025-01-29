@@ -10,10 +10,10 @@ const NavBar = () => {
         <h1
           className={`signature font-bold text-base md:text-lg  text-primary `} 
         >
-          {/* text-3xl md:text-4xl */}
+
           Between us
         </h1>
-        {/* <p className="menu_name text-primary">Coffee</p> */}
+
       </div>
       <img src="coffee-beans.svg" alt="" className="md:h-24" />
     </div>

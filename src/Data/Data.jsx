@@ -453,73 +453,246 @@ export const MenuData = [
     ingredients:
       "Framboise , Sirop de fraise , Purée de fraise , Double glaçons",
   },
+  {
+    id: 60,
+    src: "",
+    name: "Granola aux fruits",
+    price: "",
+    category: "BioDéj",
+    ingredients:
+      "",
+  },
+  {
+    id: 75,
+    src: "",
+    name: "Jus d'orange pressé",
+    price: "",
+    category: "BioDéj",
+    ingredients:
+      "",
+  },
+  {
+    id: 61,
+    src: "",
+    name: "Croissant salé",
+    price: "",
+    category: "Boza",
+    ingredients: "Poulet fumé, omelette, basilic, fromage, concombre, tomates cerises",
+  },
+  {
+    id: 62,
+    src: "",
+    name: "Jus pressé au choix",
+    price: "",
+    category: "Boza",
+    ingredients: "",
+  },
+  {
+    id: 63,
+    src: "",
+    name: "Boisson Chaude",
+    price: "",
+    category: "Boza",
+    ingredients: "Thé infusion/ Latté/ Chocolat au lait/ Café noir espresso/ Capsule",
+  },
+  {
+    id: 64,
+    src: "",
+    name: "Salade de fruits",
+    price: "",
+    category: "Boza",
+    ingredients: "",
+  },
+  {
+    id: 65,
+    src: "",
+    name: "Accompagnement",
+    price: "",
+    category: "Boza",
+    ingredients: "Fruits secs, figues séchées, raisins secs, Fromage rouge en petit D",
+  },
+  {
+    id: 66,
+    src: "",
+    name: "Boisson Chaude",
+    price: "",
+    category: "Wake up",
+    ingredients: "Latté/ Chocolat au lait/ Café noir espresso ou capsules",
+  },
+  {
+    id: 67,
+    src: "",
+    name: "Jus pressé au choix",
+    price: "",
+    category: "Wake up",
+    ingredients: "",
+  },
+  {
+    id: 68,
+    src: "",
+    name: "Viennoiserie au beurre",
+    price: "",
+    category: "Wake up",
+    ingredients: "Croissants ou pain au chocolat",
+  },
+  {
+    id: 69,
+    src: "",
+    name: "Accompagnement",
+    price: "",
+    category: "Wake up",
+    ingredients: "Beurre, Confiture",
+  },
+  {
+    id: 70,
+    src: "",
+    name: "Deux œufs au plat",
+    price: "",
+    category: "Cielo",
+    ingredients: "tomates cerises, 2 Toast, avocat, saumon, Fromage à tartiner",
+  },
+  {
+    id: 71,
+    src: "",
+    name: "Boisson Chaude",
+    price: "",
+    category: "Cielo",
+    ingredients: "Thé infusion/ Latté/ Chocolat au lait/ Café noir espresso ou capsules",
+  },
+  {
+    id: 72,
+    src: "",
+    name: "Jus pressé au choix",
+    price: "",
+    category: "Cielo",
+    ingredients: "",
+  },
+  {
+    id: 73,
+    src: "",
+    name: "Accompagnement",
+    price: "",
+    category: "Cielo",
+    ingredients: "Fruits secs, figues séchées, raisins secs, Olive, cornichon, Huile d'olive",
+  },
+  {
+    id: 74,
+    src: "",
+    name: "Viennoiserie au choix",
+    price: "",
+    category: "Cielo",
+    ingredients: "Croissant ou pain chocolat/ Un flan/ Un chocolat Praliné",
+  },
+
 ];
 
-export const menuLinks = [
+export const brunchImage = [
+
   {
     id: 1,
-    path: "/hot-coffee",
-    title: "Hot Coffee",
-    icon: "",
+    title: "BioDéj",
+    src: "biodej.png",
   },
   {
     id: 2,
-    path: "/cold-coffee",
-    title: "Cold Coffee",
-    icon: "",
+    title: "Boza",
+    src: "boza.png",
   },
   {
     id: 3,
-    path: "/hot-tea",
-    title: "Hot Tea",
-    icon: "",
+    title: "Cielo",
+    src: "cielo.png",
   },
   {
     id: 4,
-    path: "/iced-tea",
+    title: "Wake up",
+    src: "wakeup.png",
+  },
+
+
+]
+
+
+export const brunchLinks = [
+  {
+    id: 12,
+    title: "BioDéj",
+  },
+  {
+    id: 13,
+    title: "Boza",
+  },
+  {
+    id: 14,
+    title: "Cielo",
+  },
+  {
+    id: 15,
+    title: "Wake up",
+  },]
+
+
+
+export const menuLinks = [
+
+  {
+    id: 1,
+    title: "Hot Coffee",
+  },
+  {
+    id: 2,
+    title: "Cold Coffee",
+  },
+  {
+    id: 3,
+    title: "Hot Tea",
+  },
+  {
+    id: 4,
     title: "Iced Tea",
-    icon: "",
   },
   {
     id: 5,
-    path: "/frappuccino-creme",
     title: "Frappuccino Crème",
-    icon: "",
   },
   {
     id: 6,
-    path: "/frappuccino-cafe",
     title: "Frappuccino Café",
-    icon: "",
   },
   {
     id: 7,
-    path: "/frappuccino-tea",
     title: "Frappuccino Tea",
-    icon: "",
   },
   {
     id: 8,
-    path: "/mocktails",
     title: "Mocktails",
-    icon: "",
   },
   {
     id: 9,
-    path: "/jus-naturel",
     title: "Jus Naturel",
-    icon: "",
   },
   {
     id: 10,
-    path: "/refresher",
     title: "Refresher",
-    icon: "",
   },
   {
     id: 11,
-    path: "/refresher-frozen",
     title: "Refresher Frozen",
-    icon: "",
   },
 ];
+
+export const stylesData = {
+  brunch: {
+    styleone: "border-primary",
+    styletwo: "text-primary",
+    stylethree: "text-gray-500",
+    stylefour: "fill-primary",
+  },
+  menu: {
+    styleone: "border-white",
+    styletwo: "text-second",
+    stylethree: "text-white",
+    stylefour: "fill-second",
+  },
+};
+
